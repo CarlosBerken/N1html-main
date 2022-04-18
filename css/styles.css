@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial;
+}
+
+body{
+    width: 1920px;
+    height: 1500px;
+    
+    background: #C4C4C4;
+    background-color: #f3f3f3;
+    background-image: linear-gradient(
+-90deg,#43b1ff00,#3c2a47 25%,#3c2a47 75%,#43b1ff00),url(https://static.vecteezy.com/system/resources/previews/002/561/912/non_2x/security-system-interface-on-dark-purple-background-vector.jpg);
+    }
+
+header{
+    position: absolute;
+    width: 960px;
+    height: 113px;
+    
+    background: linear-gradient(0deg, #D6E1FE, #D6E1FE);
+    border: 2px solid #1c96fa;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    
+}
+
+nav ul{
+    justify-content: right;
+    display: flex;
+}
+    
+nav ul li{
+    
+    margin-top: 45px;
+    padding-left: 10px;
+    padding-right: 50px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.teste{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 566px;
+    height: 37px;
+    
+     
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: right;
+    
+    color: #050505;
+}
+.nome{
+    margin-left: 120px;
+    margin-top: 42px;
+    position: absolute;
+    width: 88px;
+    height: 82px;
+    font-family: Arial;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo{
+    margin: 15px;
+    position: absolute;
+    width: 88px;
+    height: 82px;
+}
+
+.ideia{
+    margin-top: 113px;
+    position: absolute;
+    width: 960px;
+    height: 400px;
+
+    background: #ffffff;
+      
+    box-sizing: border-box;
+}
+.ideiatxt{
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    width: 255px;
+    height: 36px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+.ideiaescrita{
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 608px;
+    height: 302px;    
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+
+    color: #000000;
+}
+.ideiaimg{
+    position: absolute;
+    width: 230px;
+    height: 259px;
+    margin-left: 700px;
+    margin-top: 75px;
+
+}
+
+.objetivos{
+    margin-top: 509px;
+    position: absolute;
+    width: 960px;
+    height: 230px;
+    background: linear-gradient(0deg, #D6E1FE, #D6E1FE);
+    box-sizing: border-box;
+}
+
+.objetivotxt{
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 10px;
+    position: absolute;
+    width: 959px;
+    height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.objetivoescrita{
+    margin-top: 60px;
+    position: absolute;
+    width: 615px;
+    height: 171px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+    margin-left: 300px;
+    
+    color: #000000;
+    
+}
+
+.objimg{
+    margin-left: 45px;
+    margin-top: 73px;
+    position: absolute;
+    width: 230px;
+    height: 115px;
+}
+
+
+.estrategias{
+    margin-top: 739px;
+    position: absolute;
+    width: 960px;
+    height: 257px;
+
+    background: #ffffff;
+      
+    box-sizing: border-box;
+}
+.estrategiastxt{
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    width: 255px;
+    height: 36px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+.estrategiasescrita{
+    margin-left: 40px;
+    margin-top: 60px;
+    position: absolute;
+    width: 608px;
+    height: 169px;
+     
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+    color: #000000;
+}
+.estraimg{
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    margin-left: 690px;
+    margin-top: 70px;
+}
+
+
+.nicho{
+    margin-top: 996px;
+    position: absolute;
+    width: 960px;
+    height: 280px;
+
+    background: linear-gradient(0deg, #D6E1FE, #D6E1FE);
+      
+    box-sizing: border-box;
+}
+.nichotxt{
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 10px;
+    position: absolute;
+    width: 960px;
+    height: 48px;
+
+     
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.nichoescrita{
+    margin-top: 60px;
+    position: absolute;
+    width: 615px;
+    height: 171px;
+    
+    margin-left: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;;
+    color: #000000;
+}
+
+.nichoimg{
+    margin-left: 45px;
+    margin-top: 92px;
+    position: absolute;
+    width: 230px;
+    height: 135px;
+}
+
+body{
+    margin: auto;
+    width: 960px;
+}
+
+.bottom{
+    margin-top: 1276px;
+    position: absolute;
+    width: 960px;
+    height: 113px;
+    
+    background-color: #ffffff;
+    border: 2px solid #1c96fa;
+    box-sizing: border-box;
+    
+}
+
+.projeto{
+    margin-top: 10px;
+    margin-left: 40px;
+    position: absolute;
+    width: 370px;
+    height: 21px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #000000;
+
+}
+
+.antonio{
+    margin-top: 35px;
+    margin-left: 40px;
+    position: absolute;
+    width: 143px;
+    height: 21px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    text-align: left;
+    
+    color: #000000;
+    
+}
+
+.carlos{
+    margin-top: 58px;
+    margin-left: 40px;
+    position: absolute;
+    width: 237px;
+    height: 21px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    text-align: left;
+    
+    color: #000000;
+    
+}
+
+.bizotto{
+    margin-top: 82px;
+    margin-left: 39px;
+    position: absolute;
+    width: 154px;
+    height: 21px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.faculdade{
+    margin-top: 10px;
+    margin-left: 750px;
+    position: absolute;
+    width: 165px;
+    height: 21px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    text-align: right;
+    
+    color: #000000;
+}
+
+.ibsem{
+    margin-left: 750px;
+    margin-top: 30px;
+    position: absolute;
+    width: 165px;
+    height: 21px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    text-align: right;
+    
+    color: #000000;
+}
+
+.direitos{
+    margin-left: 639px;
+    margin-top: 85px;
+    position: absolute;
+    width: 277px;
+    height: 21px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    font-weight: bold;
+    
+    color: #000000;
+}

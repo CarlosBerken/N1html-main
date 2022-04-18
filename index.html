@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Navegacao do site -->
+    <header class="navegacao">
+        <div class="container">
+            <a href="index.html"><img hr class="logo" src="./images/logo.png"></a>
+            <h3 class="nome">SafeBank</h3>
+            <nav>
+                <ul>
+                    <li class="menu"><a href="#section1">Ideia</a></th>
+                    <li class="menu"><a href="#section2">Objetivos</a></th>
+                    <li class="menu"><a href="#section3">Estrategias</a></th>
+                    <li class="menu"><a href="#section4">Nicho</a></th>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- Retangulo Ideia -->
+    <div class="ideia" id="section1">
+        <img class="ideiaimg" id="imagens" src="./images/login.png" alt="Login">
+        <h3 class="ideiatxt">A Ideia</h3>
+        <h1 class="ideiaescrita">O SafeBank está sendo desenvolvido para realizar o trabalho de gerenciamento de senhas
+            com extrema dificuldade para que pessoas má intencionadas chamadas de “Hackers” tenham, certa dificuldade
+            para descobrir suas senhas, mantendo com total segurança cada uma delas. O desenvolvimento em banco de dados
+            criptografados com acesso limitado, usando detalhes para que não deixe nenhum tipo de rastro para que possa
+            prejudicar tanto o usuário, quanto nós que realizamos a proposta de proteger e ajudar. Nossa proposta
+            funciona de maneira que o usuário gere uma senha aleatória e coloque em uma parte um código pessoal, sendo
+            no início, meio ou fim, para dificultar com que sejam "Hackeados'' De maneira que Bots tenham dificuldades
+            de acessar quaisquer dados.
+        </h1>
+    </div>
+
+    <!-- Retangulo objetivos -->
+    <div class="objetivos" id="section2">
+        <img class="objimg" id="imagens" src="./images/bancodedados.png" alt="Objetivos">
+        <h3 class="objetivotxt">Objetivos</h3>
+        <h1 class="objetivoescrita">O SafeBank, tem como seus principais objetivos levar para a sociedade uma forma
+            segura de planejar e salvar senhas, de maneira com que seja simples e de fácil entendimento para todas as
+            idades, o principal problema pode ser o vazamento de informações por alguns tipos de vírus e malwares,
+            havendo a possibilidade de uma invasão de nosso banco de dados.
+        </h1>
+
+    </div>
+
+    <!-- Retangulo estrategias -->
+    <div class="estrategias" id="section3">
+        <img class="estraimg" id="imagens" src="./images/estrategia.jpg" alt="Estrategias">
+        <h3 class="estrategiastxt">Estratégias</h3>
+        <h1 class="estrategiasescrita">As estratégias adotadas não foram fora do padrão que está sendo usado atualmente,
+            porém pretendemos usar a melhor forma para armazenar o os dados e as senhas dos nossos clientes usando uma
+            forma concreta e bem desenvolvida dos melhores bancos de dados atuais, também, pretendemos criar uma série
+            de proteções para caso aconteça alguma invasão não ficarmos à deriva dos hackers por trás do ataque.
+        </h1>
+    </div>
+
+    <!-- Retangulo nicho e proposta de valor -->
+    <div class="nicho" id="section4">
+        <img class="nichoimg" id="imagens" src="./images/nicho.png" alt="Nicho">
+        <h3 class="nichotxt">Nicho e Proposta de Valor</h3>
+        <h1 class="nichoescrita">O Safe Bank tem um nicho Quase que exclusivo para quem deseja ter um nível de proteção
+            acima do normal, de acordo com as pesquisas feitas já existem alguns aplicativos como o nosso, o Bit Warden,
+            o próprio banco de senhas desenvolvido pela Apple entre outros, com tantos produtos do mesmo ramo no mercado
+            ideias de como melhorar o nosso produto não faltam.
+            Pode-se dizer que a proposta de valor é levar total segurança e conforto para nossos usuários, com acesso
+            rápido a suas senhas.
+        </h1>
+    </div>
+
+    <!-- Script imagens mexendo -->
+    <script type="text/javascript" src="./script/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("#imagens"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+
+    <!-- Parte inferior do site -->
+    <bottom>
+        <div class="bottom">
+            <h3 class="projeto">Projeto SafeBank - Banco de Senhas - ADS11</h3>
+            <h3 class="antonio">Antonio de Souza</h3>
+            <h3 class="carlos">Carlos Henrique Berkenbrock</h3>
+            <h3 class="bizotto">Nicolas Ian Bizotto</h3>
+            <h3 class="faculdade">Faculdade CESUSC</h3>
+            <h3 class="ibsem">Professor Ibsem</h3>
+            <h3 class="direitos">© Todos os Direitos Reservados</h3>
+        </div>
+    </bottom>
+</body>
